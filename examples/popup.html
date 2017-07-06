@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Popups</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+	<style>
+		body{
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="ui container">
+		<div class="ui button" data-title="Test" data-content="Teste" data-position="top left"><i class="home icon"></i></div> <!-- ou exemplo data-position="bottom right" -->
+		<div class="ui button" data-tooltip="right icon" data-position="top left" ><i class="home icon"></i></div> <!-- ou exemplo data-position="bottom right" -->
+		
+	</div>
+	<script>
+		$('.ui.button').popup();
+	</script>
+	
+</body>
+</html>
