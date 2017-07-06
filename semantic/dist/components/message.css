@@ -19,8 +19,8 @@
   margin: 1em 0em;
   background: #F3F3F3;
   padding: 7px 15px;
-  line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.33;
+  color: #212121;
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 4px;
@@ -41,9 +41,9 @@
 /* Header */
 .ui.message .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin: -0.14285714em 0em 0rem 0em;
+  margin: -0.165em 0em 0rem 0em;
 }
 
 /* Default font size */
@@ -107,7 +107,7 @@
   cursor: pointer;
   position: absolute;
   margin: 0em;
-  top: 6.78575px;
+  top: 6.835px;
   right: 0.5em;
   opacity: 0.7;
   -webkit-transition: opacity 0.1s ease;
@@ -348,19 +348,19 @@
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #DB2828;
-  box-shadow: 0px 0px 0px 1px #DB2828 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #F44336;
+  box-shadow: 0px 0px 0px 1px #F44336 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #c82121;
+  color: #f32c1e;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #F2711C;
-  box-shadow: 0px 0px 0px 1px #F2711C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #FF9800;
+  box-shadow: 0px 0px 0px 1px #FF9800 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.orange.message .header {
-  color: #e7640d;
+  color: #e68900;
 }
 .ui.yellow.message {
   background-color: #FFF8DB;
@@ -396,11 +396,11 @@
 }
 .ui.blue.message {
   background-color: #DFF0FF;
-  color: #2185D0;
-  box-shadow: 0px 0px 0px 1px #2185D0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #2196F3;
+  box-shadow: 0px 0px 0px 1px #2196F3 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.blue.message .header {
-  color: #1e77ba;
+  color: #0d8aee;
 }
 .ui.violet.message {
   background-color: #EAE7FF;
@@ -412,19 +412,19 @@
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #A333C8;
-  box-shadow: 0px 0px 0px 1px #A333C8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #9C27B0;
+  box-shadow: 0px 0px 0px 1px #9C27B0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #922eb4;
+  color: #89229b;
 }
 .ui.pink.message {
   background-color: #FFE3FB;
-  color: #E03997;
-  box-shadow: 0px 0px 0px 1px #E03997 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #E91E63;
+  box-shadow: 0px 0px 0px 1px #E91E63 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.pink.message .header {
-  color: #dd238b;
+  color: #d81557;
 }
 .ui.brown.message {
   background-color: #F1E2D3;

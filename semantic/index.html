@@ -4,11 +4,48 @@
 	<meta charset="UTF-8">
 	<title>Theming</title>
 	<link rel="stylesheet" href="./dist/semantic.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
 </head>
 <body>
 	<div class="ui container">
-		<div class="ui primary button">Teste</div>
+		<div class="ui sidebar vertical menu">
+			<div class="item">Home</div>
+			<div class="item">Contact</div>
+			<div class="item">About</div>
+		</div>
+		<i id="menu-opener" class="content icon large"></i>
 	</div>
-	
+	<script>
+		$('#menu-opener').click(function(){ $('.sidebar.menu').sidebar('toggle')})
+	</script>
+	<br>
+	<div class="ui container">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perferendis harum quam inventore debitis distinctio, soluta, corporis placeat, quaerat officia ad aspernatur odio, id ipsam officiis consequuntur pariatur corrupti voluptas!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perferendis harum quam inventore debitis distinctio, soluta, corporis placeat, quaerat officia ad aspernatur odio, id ipsam officiis consequuntur pariatur corrupti voluptas!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perferendis harum quam inventore debitis distinctio, soluta, corporis placeat, quaerat officia ad aspernatur odio, id ipsam officiis consequuntur pariatur corrupti voluptas!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perferendis harum quam inventore debitis distinctio, soluta, corporis placeat, quaerat officia ad aspernatur odio, id ipsam officiis consequuntur pariatur corrupti voluptas!</p>
+	</div>
+	<br>
+	<div class="ui container">
+		<div id="deleteModal" class="ui basic modal"> <!-- ou ui moddal-->
+			<i class="close icon"></i>
+			<div class="header">Warning</div>
+			<div class="content">
+				Eu avisei para não clicar!
+			</div>
+			<div class="actions">
+				<div class="ui inverted button">Yes</div> <!-- ou ui button -->
+				<div class="ui inverted green button">Cancel</div> <!-- ou ui green button -->
+			</div>
+		</div>
+		<div id="delete" class="ui basic large button">Não clique aqui!</div>
+	</div>
+	<script>
+		$('#delete').click(function(){
+			$('#deleteModal').modal('show');
+		})
+	</script>
 </body>
 </html>
