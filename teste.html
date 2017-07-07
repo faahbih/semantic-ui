@@ -23,10 +23,12 @@
 
 				<!-- Sidebar Menu -->
 		      	<div class="ui vertical inverted sidebar menu left">
-		      		<a class="active item">Home</a>
-		      		<a class="item">Work</a>
-		      		<a class="item">Company</a>
-		      		<a class="item">Careers</a>
+		      		<div class="ui active item"><a href="#">Home</a></div>
+		      		<div class="ui item"><a href="#about">About</a></div>
+		      		<div class="ui item"><a href="#job">Job</a></div>
+		      		<div class="ui item"><a href="#skills">Skills</a></div>
+		      		<div class="ui item"><a href="#social">Social</a></div>
+		      		<div class="ui item"><a href="#port">Portfolio</a></div>
 		      		<!-- <a class="item">Login</a>
 		      		<a class="item">Signup</a> -->
 		      	</div>
@@ -50,140 +52,267 @@
 		      </div><br><br>
 	    </div>
 	</div>
+
+
 	
 
 <div class="ui vertical stripe segment">
-	<div class="ui container"><br><br>
 
-		<h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consectetur, tempore vel aperiam ab iure id, officia mollitia nesciunt quisquam, dolore doloremque. Possimus consequuntur delectus facilis perspiciatis minima, repellat recusandae?</p>
-			
-		<div id="violModal" class="ui basic modal"> <!-- ou ui moddal-->
-			<i class="close icon"></i>
-			
-			<div class="header">Testing</div>
-				<div class="content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				</div>
-			<div class="actions">
-				<a id="clos" class="ui inverted violet large button">Close</a>
-			</div>
-		</div>
-		<div id="viol" class="ui inverted violet large button">Delete My Account</div>
-		
-		<script>
-			$('#viol').click(function(){
-				$('#violModal').modal('show');
-			})
-		</script>
-			
-
-		<h4 class="ui horizontal header divider">
-			<a href="#">Case Studies</a>
-		</h4>
-
-		<h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
-			<a class="ui inverted violet large button">I'm Still Quite Interested</a>
+	<div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="eight wide column">
+				
+				<h4 class="ui horizontal header divider">
+				<i id="about" class="hand spock teal icon"></i>About
+				</h4>
+				
+				<h3 class="ui header">Lorem ipsum dolor sit amet</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officiis itaque, facilis quis, tenetur iste, vel excepturi quod, praesentium aspernatur eum explicabo alias odio fugit. Ipsam corporis voluptate, amet itaque!</p>
 
 
-		<h4 class="ui horizontal header divider">
-			<a href="#">Case Studies</a>
-		</h4>
+				<div id="violModal" class="ui basic modal"> <!-- ou ui moddal-->
+					<i class="close icon"></i>
 
-		<h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
-			<a class="ui inverted violet large button">I'm Still Quite Interested</a>
-
-		<h4 class="ui horizontal header divider">
-			<a href="#">Case Studies</a>
-		</h4>
-
-		<h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
-			<a class="ui inverted violet large button">I'm Still Quite Interested</a>
-
-		<h4 class="ui horizontal header divider">
-			<a href="#">Case Studies</a>
-		</h4>
-
-		<h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
-			<a class="ui inverted violet large button">I'm Still Quite Interested</a><br><br> <br><br>
-
-</div>
-
-		<div class="ui middle aligned stackable grid container">
-			<div class="row">
-				<div class="eight wide column">
-					<h3 class="ui header">We Help Companies and Companions</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officiis itaque, facilis quis, tenetur iste, vel excepturi quod, praesentium aspernatur eum explicabo alias odio fugit. Ipsam corporis voluptate, amet itaque!</p>
-					
-				</div>
-				<div class="six wide right floated column">
-					<!-- <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
-					<div class="ui card">
-						<div class="ui slide masked reveal image">
-						<img src="images/kristy.png" class="visible content">
-							<img src="images/matthew.png" class="hidden content">
-						</div>
+					<div class="header">Testing</div>
 						<div class="content">
-							<a class="header">Team Fu &amp; Hess</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+
+						<div class="actions">
+							<a class="ui violet large button">Close</a>
+							<div class="ui blue large button">Open</div>
+							<div class="ui teal large button">Test</div>
+							<div class="ui red large button">Link</div>
+						</div>
+				</div>
+
+				<div id="viol" class="ui inverted violet large button">
+					Button Test
+				</div>
+
+				<script>
+					$('#viol').click(function(){
+						$('#violModal').modal('show');
+					})
+				</script>
+						
+			</div>
+		
+			<div class="six wide right floated column">
+			<!-- <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
+			
+				<div class="ui card">
+					<div class="ui slide masked reveal image">
+						<img src="images/kristy.png" class="visible content">
+						<img src="images/matthew.png" class="hidden content">
+					</div>
+							
+					<!-- <div class="content">
+						<a class="header">Team Fu &amp; Hess</a>
 							<div class="meta">
 								<span class="date">Create in Sep 2014</span>
 							</div>
-						</div>
-						<div class="extra content">
-							<a>
-								<i class="users icon"></i>
+					</div> -->
+					
+					<div class="extra content">
+						<a>
+							<i class="users icon"></i>
 								2 Members
-							</a>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
+		</div>
+
+	</div>
+	
+	<div class="ui container"><br><br>
+
+		<h3 class="ui header">Lorem ipsum dolor sit amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consectetur, tempore vel aperiam ab iure id, officia mollitia nesciunt quisquam, dolore doloremque. Possimus consequuntur delectus facilis perspiciatis minima, repellat recusandae?</p>
 			
+		
+			
+
+		<h4 class="ui horizontal header divider">
+			<i id="job" class="folder outline blue icon"></i>Job
+		</h4>
+
+		<h3 class="ui header">Lorem ipsum dolor sit amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
+			<a class="ui inverted violet large button">I'm Still Quite Interested</a>
+
+		<h4 class="ui horizontal header divider">
+			<i id="skills" class="empty heart red icon"></i>Skills
+		</h4><br><br>
+
+		<div class="ui equal width center aligned padded grid">
+			<div class="row">
+				<div class="column">
+					
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="column">
+
+					<div class="ui basic inverted massive button" data-title="Traditional Art">
+						<i class="write orange large icon"></i>
+					</div>
+					<div class="ui basic inverted massive button" data-title="Desenvolvimento Web">
+						<i class="power olive large icon"></i>
+					</div>
+				</div>
+
+				<div class="column">
+					
+					<div class="ui basic inverted massive button" data-title="Identidade Visual">
+						<i class="rebel red large icon"></i>
+					</div>
+					<div class="ui basic inverted massive button" data-title="Photoshop, CorelDraw">
+						<i class="paint brush blue large icon"></i>
+					</div>		
+				</div>
+
+				<div class="column">
+					
+					<div class="ui basic inverted massive button" data-title="Informática">
+						<i class="tablet yellow large icon"></i>
+					</div>
+					<div class="ui basic inverted massive button" data-title="Ilustração Manual e Digital">
+						<i class="pagelines pink large icon"></i>
+					</div>						
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+				</div>
+			</div>
+			
+		</div><br><br>
+		
+		<h4 class="ui horizontal header divider">
+			<i id="social" class="thumbs outline up olive icon"></i>Social
+		</h4>
+
+		<div class="ui equal width center aligned padded grid">
+
+			<div class="row">
+				<div class="ui icon massive button" data-title="Gitlab" data-content="faahbih">
+					<i class="gitlab teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Github" data-content="faahbih">
+					<i class="github teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Linkedin" data-content="fabianarroliveira">
+					<i class="linkedin teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Twitter" data-content="__hibhaaf">
+					<i class="twitter teal large icon"></i>
+				</div>
+
+				<div class="ui icon massive button" data-title="Behance" data-content="fabianarroliveira" data-position="bottom left">
+					<i class="behance teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Facebook" data-content="facebook" data-position="bottom left">
+					<i class="facebook teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Instagram" data-content="instagram" data-position="bottom left">
+					<i class="instagram teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Deviantart" data-content="fahbih" data-position="bottom left">
+					<i class="deviantart teal large icon"></i>
+				</div>
+
+				<div class="ui icon massive button" data-title="Flickr" data-content="fahbih">
+					<i class="flickr teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Pinterest" data-content="pinterest">
+					<i class="pinterest teal large icon"></i>
+				</div>
+				<div class="ui icon massive button" data-title="Stack Overflow" data-content="fabiana-oliveira">
+					<i class="stack overflow teal large icon"></i>
+				</div>
+
+				<div class="ui icon massive button" data-title="Spotify" data-content="spotify">
+					<i class="spotify teal large icon"></i>
+				</div><br><br>
+
+
+				<script>
+					$('.ui.button').popup();
+				</script>
 
 			</div>
+		</div>
+		
+		 
 
-			
+		<h3 class="ui header">Lorem ipsum dolor sit amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
+			<a class="ui inverted violet large button">I'm Still Quite Interested</a>
+
+		<h4 class="ui horizontal header divider">
+			<i id="port" class="empty star orange icon"></i>Portfolio
+		</h4>
+
+		<h3>Lorem ipsum dolor sit amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quam voluptate esse nesciunt hic eos cupiditate, quas, distinctio commodi ut possimus! Minus libero eius inventore, eveniet ex sequi consequuntur quis!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quisquam nemo itaque culpa ad, perspiciatis dolorum beatae molestias, alias facilis mollitia voluptate soluta excepturi nisi corporis quibusdam labore doloribus dolores!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut distinctio voluptates maxime sapiente optio. Nam aut ipsum odit id. Consequuntur suscipit voluptas, maxime temporibus? Tempora inventore, mollitia ducimus laboriosam asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam minima neque, labore fugiat incidunt doloribus, quas necessitatibus doloremque repudiandae modi sapiente praesentium voluptates. Ea dolore, quae id illo magni sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptate qui blanditiis dolor quidem quam sunt officia exercitationem repellendus, maxime, nisi minima id voluptatem explicabo accusamus ad delectus necessitatibus doloremque.</p>
+
+		<h4 class="ui horizontal header divider">
+			<a href="#">Case Studies</a>
+		</h4>
+
+		<h3 class="ui header">Lorem ipsum dolor sit amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus quas non quasi, molestiae eveniet, eos corrupti unde. Ratione consequuntur id, officia ad excepturi. Dolorem quos quod, error illo distinctio.</p>
+			<a class="ui inverted violet large button">I'm Still Quite Interested</a><br><br> <br><br>
+	</div>
+
+	<div class="ui container">
+		<div class="ui accordion">
+			<div class="title"><i class="dropdown icon"></i>What is this?</div>
+				<div class="content">This is a course of semantic UI.</div>
+		</div>
+		
+		<script>
+			$('.ui.accordion').accordion();
+		</script>
 	</div>
 </div>
 
-
-	<div class="ui inverted vertical footer segment">
-		<div class="ui container">
-			<div class="ui stackable inverted divided equal height stackable grid">
-				<div class="three wide column">
-					<h4 class="ui inverted header">About</h4>
+<!-- footer -->
+<div class="ui inverted vertical footer segment">
+	<div class="ui container">
+		<div class="ui stackable inverted divided equal height stackable grid">
+			<div class="three wide column">
+				<h4 class="ui inverted header">About</h4>
 					<div class="ui inverted link list">
 						<a href="#" class="item">Sitemap</a>
 						<a href="#" class="item">Contact Us</a>
 						<a href="#" class="item">Religious Ceremonies</a>
 						<a href="#" class="item">Gazebo Plans</a>
 					</div>
-				</div>
+			</div>
 
-				<div class="three wide column">
-					<h4 class="ui inverted header">Services</h4>
+			<div class="three wide column">
+				<h4 class="ui inverted header">Services</h4>
 					<div class="ui inverted link list">
-						<a href="#" class="item">Banana Pre-Order</a>
+						<a href="#" class="item">Pre-Order</a>
 						<a href="#" class="item">DNA FAQ</a>
 						<a href="#" class="item">How To Access</a>
 						<a href="#" class="item">Favorite X-Men</a>
 					</div>
-				</div>
+			</div>
 
-				<div class="seven wide column">
-					<h4 class="ui inverted header">Footer Header</h4>
+			<div class="seven wide column">
+				<h4 class="ui inverted header">Footer Header</h4>
 					<p>Extra space for a call to action inside the footer that could help re-engage users.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-
-
 </body>
 </html>
