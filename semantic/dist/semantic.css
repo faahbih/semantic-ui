@@ -17221,11 +17221,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #009FDA;
+  color: #4183C4;
 }
 
 .ui.breadcrumb a:hover {
-  color: #00b2f3;
+  color: #1e70bf;
 }
 
 /* Icon Divider */
@@ -17297,6 +17297,10 @@ ol.ui.horizontal.list li:before,
 .ui.massive.breadcrumb {
   font-size: 1.71428571rem;
 }
+
+/*******************************
+         Theme Overrides
+*******************************/
 
 /*******************************
          Site Overrides
